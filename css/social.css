@@ -1,0 +1,69 @@
+/* Social Media effects */
+.social
+{
+    font-size: 3em;
+    color: grey;
+    display: inline-block;
+    margin: 10px;
+}
+
+#facebook:hover
+{
+    color: #3b5998;
+    transition: .2s ease-in-out;
+}
+#facebook:focus
+{
+    color: #3b5998;
+}
+
+#linkedin:hover
+{
+    color: #0077B5;
+    transition: .2s ease-in-out;
+}
+#linkedin:focus
+{
+    color: #0077B5;
+}
+
+#twitter:hover
+{
+    color: #0084b4;
+    transition: .2s ease-in-out;
+}
+#twitter:focus
+{
+    color: #0084b4;
+}
+
+#google-plus:hover
+{
+    color: #db4a39;
+    transition: .2s ease-in-out;
+}
+#google-plus:focus
+{
+    color: #db4a39;
+}
+
+#instagram:hover
+{
+    color: #fb3958;
+    transition: .2s ease-in-out;
+}
+#instagram:focus
+{
+    color: #fb3958;
+}
+
+#github:hover
+{
+    color: #000000;
+    transition: .2s ease-in-out;
+}
+#github:focus
+{
+    color: #000000;
+}
+/* End of Social Media effects */

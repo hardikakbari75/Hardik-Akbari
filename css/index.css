@@ -1,0 +1,199 @@
+/* Leave gap from top and bottom */
+.top_bottom
+{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+/* End of Leave gap from top and bottom */
+
+.top-body
+{
+    margin-top: 4%;
+}
+
+.img_round
+{
+    border-radius:7px;
+}
+
+#hardik-img
+{
+    width: 216px;
+    height: 250px;
+}
+
+@media screen and (max-width: 480px)
+{
+    .nav
+    {
+        padding-left:2px;
+        padding-right:2px;
+    }
+    .nav li
+    {
+        display:block !important;
+        width:100%;
+        margin:0px;
+    }
+    .nav li.active
+    {
+        border-bottom:1px solid #ddd!important;
+        margin: 0px;
+    }
+}
+
+.padding_right
+{
+    padding-right: 20px;
+}
+
+.padding_left
+{
+    padding-left: 20px;
+}
+
+.border_bottom
+{
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+
+.center
+{
+    text-align: center;
+}
+
+#hobbies
+{
+    padding: 25px 20px;
+    text-align: right;
+}
+
+#hobbies_names
+{
+    padding-left: 20px;
+    text-align: left;
+    border-left: 1px solid;
+}
+
+#hobbies_names > p
+{
+    margin-bottom: -1px;
+}
+
+@media screen and (max-width: 767px)
+{
+    #hobbies, #hobbies_names
+    {
+        width: 100%;
+        border: none;   
+        text-align: center;
+        padding: 0px;
+    }
+
+    #hobbies
+    {
+        text-decoration: underline;
+    }
+}
+
+#languages
+{
+    padding-right: 20px;
+    text-align: right;
+}
+
+#frameworks
+{
+    padding-left: 20px;
+    text-align: left;
+    border-left: 1px solid;
+    transition: .3s ease-in-out;
+}
+
+@media screen and (max-width: 767px)
+{
+    #languages, #frameworks
+    {
+        width: 100%;
+        border: none;   
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+#frameworks a
+{
+    text-decoration: none;
+    color: #333;
+}
+
+#frameworks a:hover
+{
+    color: #000000;
+}
+
+#experience
+{
+    margin-bottom: 20px;
+}
+
+.projects
+{
+    margin: 10px;
+    transition: .3s ease-in-out;
+    border-bottom: 1px solid #808080;
+}
+
+.projects:hover
+{
+    border-bottom: 1px solid black;
+}
+
+.paragraph_gap
+{
+    margin-bottom: -1px;
+}
+
+#email
+{
+    display: inline-block;
+    border-bottom: 1px solid #808080;
+    transition: .3s ease-in-out;
+}
+
+#email:hover
+{
+    border-bottom: 1px solid black;
+}
+
+.base_img
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p
+{
+    font-size: 15px;
+}
+
+#name
+{
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+#name_discription
+{
+    display: inline-block;
+    background-color: #808080;
+    color: white;
+    padding: 0px 3px;
+}
